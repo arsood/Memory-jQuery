@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+
+.game-board {
+	border:#000 2px solid;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.game-board td {
+	border:#000 2px solid;
+	transition:all 0.3s linear;
+	width:200px;
+	height:200px;
+	text-align:center;
+	font-size:5em;
+}
+
+.game-board td:hover {
+	background-color:#DDD;
+	transition:all 0.3s linear;
+	cursor:pointer;
+}
