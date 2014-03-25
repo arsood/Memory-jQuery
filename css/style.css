@@ -11,13 +11,21 @@
 	border:#000 2px solid;
 	transition:all 0.3s linear;
 	width:200px;
-	height:200px;
+	height:120px;
 	text-align:center;
-	font-size:5em;
+	font-size:2em;
 }
 
 .game-board td:hover {
 	background-color:#DDD;
 	transition:all 0.3s linear;
 	cursor:pointer;
+}
+
+.name {
+	display: none;
+}
+
+.active {
+	display: block !important;
 }
