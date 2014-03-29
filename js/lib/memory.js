@@ -1,5 +1,4 @@
 var animals = ["Giraffe", "Giraffe", "Monkey", "Monkey", "Cat", "Cat", "Dog", "Dog", "Hippo", "Hippo", "Zebra", "Zebra"];
-var showCount = 0;
 var pickedAnimals = new Array();
 
 function shuffleArray(array) {
@@ -12,7 +11,7 @@ function shuffleArray(array) {
 	return array;
 }
 
-var shuffledArray = shuffleArray(animals);
+shuffleArray(animals);
 
 for (var i = 0; i <= 11; i++) {
 	$("#" + (i + 1) + " .name").html(animals[i]);

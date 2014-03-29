@@ -1,6 +1,5 @@
 //Write an array called animals that has 6 different animals in it. Repeat each animal once.
 
-var showCount = 0;
 var pickedAnimals = new Array();
 
 function shuffleArray(array) {
@@ -13,7 +12,7 @@ function shuffleArray(array) {
 	//RETURN the variable "array" here
 }
 
-//Create a variable called shuffledArray calling the function "shuffleArray" and passing in the "animals" array as a parameter
+//Call the function "shuffleArray" and pass in the "animals" array as a parameter
 
 //Write the beginning of the FOR loop from 0 to 11
 	$("#" + (i + 1) + " .name").html(animals[i]);
